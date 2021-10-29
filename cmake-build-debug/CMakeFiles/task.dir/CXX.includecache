@@ -12,6 +12,8 @@ Transport.h
 cstdio
 -
 
+/mnt/d/CLion_Projects/AVS_HW2/Random.h
+
 /mnt/d/CLion_Projects/AVS_HW2/Transport.h
 cstdio
 -
@@ -19,6 +21,8 @@ cstdio
 /mnt/d/CLion_Projects/AVS_HW2/main.cpp
 Container.h
 /mnt/d/CLion_Projects/AVS_HW2/Container.h
+Random.h
+/mnt/d/CLion_Projects/AVS_HW2/Random.h
 cstdio
 -
 

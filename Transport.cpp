@@ -3,15 +3,24 @@
 #include "Car.h"
 #include "Random.h"
 
+//-------------------------------------------------
+// Transport constructor.
+//-------------------------------------------------
 Transport::Transport(int volume, double fuel_100km) {
     volume_ = volume;
     fuel_100km_ = fuel_100km;
 }
 
+//-------------------------------------------------
+// Returns max distance a transport can ride.
+//-------------------------------------------------
 double Transport::getMaxDistance() const {
     return volume_ / fuel_100km_ * 100;
 }
 
+//-------------------------------------------------
+// Generates a Transport.
+//-------------------------------------------------
 Transport *Transport::generateTransport() {
     switch (Random::randomInt(1, 4)) {
         case 1:
@@ -25,6 +34,9 @@ Transport *Transport::generateTransport() {
     }
 }
 
+//-------------------------------------------------
+// Reads a Transport from file.
+//-------------------------------------------------
 Transport *Transport::readTransportFromFile(FILE *const& fin) {
     int k;
     fscanf(fin, "%d", &k);
@@ -40,6 +52,9 @@ Transport *Transport::readTransportFromFile(FILE *const& fin) {
     }
 }
 
+//-------------------------------------------------
+// Writes the Transport to file.
+//-------------------------------------------------
 void Transport::writeTransportToFile(FILE *const& fout) const {
     fprintf(fout, "This Transport has a volume of %d and needs %lf fuel for 100 km. ",
             this->volume_, this->fuel_100km_);

@@ -2,14 +2,23 @@
 
 #include<cstdio>
 
+//-------------------------------------------------
+// Container constructor.
+//-------------------------------------------------
 Container::Container() {
     cont_ = new Transport *[kMaxSize];
 }
 
+//-------------------------------------------------
+// Pushes element to the end of container.
+//-------------------------------------------------
 void Container::pushBack(Transport& tr) {
     cont_[size_++] = &tr;
 }
 
+//-------------------------------------------------
+// Generates a container.
+//-------------------------------------------------
 Container *Container::generateContainer(int size) {
     Container *cont = new Container();
     Transport *tr;
@@ -20,6 +29,9 @@ Container *Container::generateContainer(int size) {
     return cont;
 }
 
+//-------------------------------------------------
+// Reads a Constructor from file.
+//-------------------------------------------------
 Container *Container::readContainerFromFile(int size, FILE *const& fin) {
     Container *cont = new Container();
     Transport *tr;
@@ -34,6 +46,9 @@ Container *Container::readContainerFromFile(int size, FILE *const& fin) {
     return cont;
 }
 
+//-------------------------------------------------
+// Either creates a Constructor from file or generates it.
+//-------------------------------------------------
 Container *Container::createContainer(FILE *const& fin) {
     int size;
     fscanf(fin, "%d", &size);
@@ -47,6 +62,9 @@ Container *Container::createContainer(FILE *const& fin) {
     }
 }
 
+//-------------------------------------------------
+// Finds average distance Transport in Container can ride.
+//-------------------------------------------------
 double Container::getAverageDistance() const {
     double aggregate_distance = 0;
     for (int i = 0; i < size_; ++i) {
@@ -58,6 +76,9 @@ double Container::getAverageDistance() const {
     return aggregate_distance / size_;
 }
 
+//----------------------------------------------------------------------------
+// Removes from container all elements with max distance less than average.
+//----------------------------------------------------------------------------
 void Container::removeLesserThanAverage() {
     double average = getAverageDistance();
     int new_size = 0;
@@ -75,6 +96,9 @@ void Container::removeLesserThanAverage() {
     size_ = new_size;
 }
 
+//-------------------------------------------------
+// Writes the Container to file.
+//-------------------------------------------------
 void Container::writeContainerToFile(FILE *const& fout) const {
     fprintf(fout, "There are %d elements in Container:\n", size_);
     for (int i = 0; i < size_; ++i) {
@@ -84,6 +108,9 @@ void Container::writeContainerToFile(FILE *const& fout) const {
     fprintf(fout, "\n");
 }
 
+//-------------------------------------------------
+// Container destructor.
+//-------------------------------------------------
 Container::~Container() {
     delete[] cont_;
 }

@@ -6,16 +6,48 @@
 
 #IncludeRegexTransform: 
 
+/mnt/d/CLion_Projects/AVS_HW2/Bus.cpp
+Bus.h
+/mnt/d/CLion_Projects/AVS_HW2/Bus.h
+Random.h
+/mnt/d/CLion_Projects/AVS_HW2/Random.h
+
 /mnt/d/CLion_Projects/AVS_HW2/Bus.h
 Transport.h
 /mnt/d/CLion_Projects/AVS_HW2/Transport.h
 cstdio
 -
 
+/mnt/d/CLion_Projects/AVS_HW2/Car.cpp
+Car.h
+/mnt/d/CLion_Projects/AVS_HW2/Car.h
+Random.h
+/mnt/d/CLion_Projects/AVS_HW2/Random.h
+
 /mnt/d/CLion_Projects/AVS_HW2/Car.h
 Transport.h
 /mnt/d/CLion_Projects/AVS_HW2/Transport.h
 cstdio
+-
+
+/mnt/d/CLion_Projects/AVS_HW2/Container.cpp
+Container.h
+/mnt/d/CLion_Projects/AVS_HW2/Container.h
+cstdio
+-
+
+/mnt/d/CLion_Projects/AVS_HW2/Container.h
+Transport.h
+/mnt/d/CLion_Projects/AVS_HW2/Transport.h
+cstdio
+-
+
+/mnt/d/CLion_Projects/AVS_HW2/Random.cpp
+Random.h
+/mnt/d/CLion_Projects/AVS_HW2/Random.h
+cstdlib
+-
+ctime
 -
 
 /mnt/d/CLion_Projects/AVS_HW2/Random.h
@@ -33,6 +65,12 @@ Random.h
 /mnt/d/CLion_Projects/AVS_HW2/Transport.h
 cstdio
 -
+
+/mnt/d/CLion_Projects/AVS_HW2/Truck.cpp
+Truck.h
+/mnt/d/CLion_Projects/AVS_HW2/Truck.h
+Random.h
+/mnt/d/CLion_Projects/AVS_HW2/Random.h
 
 /mnt/d/CLion_Projects/AVS_HW2/Truck.h
 Transport.h

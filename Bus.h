@@ -18,8 +18,6 @@ public:
     static Bus *generateBus();
 
     void writeBusToFile(FILE *const& fout) const;
-
-    short int getMaxPassengers() const;
 };
 
 #endif //AVS_HW2_BUS_H

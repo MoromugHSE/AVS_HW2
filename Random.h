@@ -8,7 +8,7 @@ public:
 
     static int randomInt(int min, int max);
 
-    static short int randomShort(short int min, short int max);
+    static short int randomShortInt(short int min, short int max);
 
     static double randomDouble(double min, double max);
 

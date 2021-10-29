@@ -1,8 +1,13 @@
 #include "Container.h"
+#include "Random.h"
 
 #include<cstdio>
 
+//------------------------------------------------------------------
+// Main method: program starting point.
+//------------------------------------------------------------------
 int main(int argc, char *argv[]) {
+    Random::initRandom();
     if (argc != 3) {
         printf("Incorrect arguments format!\n"
                "Correct:\n"

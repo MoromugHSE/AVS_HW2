@@ -18,8 +18,6 @@ public:
     static Car *generateCar();
 
     void writeCarToFile(FILE *const& fout) const;
-
-    short int getMaxSpeed() const;
 };
 
 #endif //AVS_HW2_CAR_H

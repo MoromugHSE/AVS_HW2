@@ -18,9 +18,6 @@ public:
     static Truck *generateTruck();
 
     void writeTruckToFile(FILE *const& fout) const;
-
-    int getMaxMass() const;
-
 };
 
 #endif //AVS_HW2_TRUCK_H

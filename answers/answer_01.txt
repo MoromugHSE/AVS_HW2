@@ -1,0 +1,14 @@
+Container before changes:
+There are 5 elements in Container:
+0: This Transport has a volume of 3 and needs 4.500000 fuel for 100 km. This is a Truck. Truck can take 10 kg.
+1: This Transport has a volume of 4 and needs 5.500000 fuel for 100 km. This is a Truck. Truck can take 11 kg.
+2: This Transport has a volume of 5 and needs 6.500000 fuel for 100 km. This is a Truck. Truck can take 12 kg.
+3: This Transport has a volume of 6 and needs 7.500000 fuel for 100 km. This is a Truck. Truck can take 13 kg.
+4: This Transport has a volume of 7 and needs 8.500000 fuel for 100 km. This is a Truck. Truck can take 14 kg.
+
+Container after changes:
+There are 3 elements in Container:
+0: This Transport has a volume of 5 and needs 6.500000 fuel for 100 km. This is a Truck. Truck can take 12 kg.
+1: This Transport has a volume of 6 and needs 7.500000 fuel for 100 km. This is a Truck. Truck can take 13 kg.
+2: This Transport has a volume of 7 and needs 8.500000 fuel for 100 km. This is a Truck. Truck can take 14 kg.
+

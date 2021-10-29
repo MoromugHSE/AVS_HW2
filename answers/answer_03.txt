@@ -1,0 +1,33 @@
+Container before changes:
+There are 21 elements in Container:
+0: This Transport has a volume of 87 and needs 15.661984 fuel for 100 km. This is a Truck. Truck can take 36 kg.
+1: This Transport has a volume of 136 and needs 6.704455 fuel for 100 km. This is a Truck. Truck can take 93 kg.
+2: This Transport has a volume of 22 and needs 9.547941 fuel for 100 km. This is a Truck. Truck can take 28 kg.
+3: This Transport has a volume of 60 and needs 19.044595 fuel for 100 km. This is a Truck. Truck can take 27 kg.
+4: This Transport has a volume of 27 and needs 2.832051 fuel for 100 km. This is a Truck. Truck can take 737 kg.
+5: This Transport has a volume of 169 and needs 2.744632 fuel for 100 km. This is a Truck. Truck can take 30 kg.
+6: This Transport has a volume of 131 and needs 2.595809 fuel for 100 km. This is a Truck. Truck can take 24 kg.
+7: This Transport has a volume of 136 and needs 10.258648 fuel for 100 km. This is a Truck. Truck can take 3 kg.
+8: This Transport has a volume of 59 and needs 12.751045 fuel for 100 km. This is a Truck. Truck can take 168 kg.
+9: This Transport has a volume of 57 and needs 5.850336 fuel for 100 km. This is a Truck. Truck can take 3 kg.
+10: This Transport has a volume of 174 and needs 8.004572 fuel for 100 km. This is a Truck. Truck can take 920 kg.
+11: This Transport has a volume of 138 and needs 16.154490 fuel for 100 km. This is a Truck. Truck can take 25 kg.
+12: This Transport has a volume of 171 and needs 10.519907 fuel for 100 km. This is a Truck. Truck can take 27 kg.
+13: This Transport has a volume of 181 and needs 17.804652 fuel for 100 km. This is a Truck. Truck can take 34 kg.
+14: This Transport has a volume of 171 and needs 9.154035 fuel for 100 km. This is a Truck. Truck can take 82 kg.
+15: This Transport has a volume of 126 and needs 18.044161 fuel for 100 km. This is a Truck. Truck can take 328 kg.
+16: This Transport has a volume of 106 and needs 7.504140 fuel for 100 km. This is a Truck. Truck can take 30 kg.
+17: This Transport has a volume of 58 and needs 10.632129 fuel for 100 km. This is a Truck. Truck can take 16 kg.
+18: This Transport has a volume of 146 and needs 18.616196 fuel for 100 km. This is a Truck. Truck can take 368 kg.
+19: This Transport has a volume of 165 and needs 12.799576 fuel for 100 km. This is a Truck. Truck can take 51 kg.
+20: This Transport has a volume of 9 and needs 8.802091 fuel for 100 km. This is a Truck. Truck can take 19 kg.
+
+Container after changes:
+There are 6 elements in Container:
+0: This Transport has a volume of 136 and needs 6.704455 fuel for 100 km. This is a Truck. Truck can take 93 kg.
+1: This Transport has a volume of 169 and needs 2.744632 fuel for 100 km. This is a Truck. Truck can take 30 kg.
+2: This Transport has a volume of 131 and needs 2.595809 fuel for 100 km. This is a Truck. Truck can take 24 kg.
+3: This Transport has a volume of 174 and needs 8.004572 fuel for 100 km. This is a Truck. Truck can take 920 kg.
+4: This Transport has a volume of 171 and needs 10.519907 fuel for 100 km. This is a Truck. Truck can take 27 kg.
+5: This Transport has a volume of 171 and needs 9.154035 fuel for 100 km. This is a Truck. Truck can take 82 kg.
+

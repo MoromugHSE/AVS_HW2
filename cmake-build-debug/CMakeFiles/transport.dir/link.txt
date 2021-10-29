@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtransport.a  CMakeFiles/transport.dir/Random.cpp.o CMakeFiles/transport.dir/Transport.cpp.o CMakeFiles/transport.dir/Truck.cpp.o CMakeFiles/transport.dir/Bus.cpp.o CMakeFiles/transport.dir/Car.cpp.o CMakeFiles/transport.dir/Container.cpp.o
+/usr/bin/ranlib libtransport.a

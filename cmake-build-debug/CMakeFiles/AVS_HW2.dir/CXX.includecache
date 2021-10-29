@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/CLion_Projects/AVS_HW2/bus.h
+cstdio
+-
+
+/mnt/d/CLion_Projects/AVS_HW2/car.h
+cstdio
+-
+
+/mnt/d/CLion_Projects/AVS_HW2/container.h
+transport.h
+/mnt/d/CLion_Projects/AVS_HW2/transport.h
+cstdio
+-
+
+/mnt/d/CLion_Projects/AVS_HW2/main.cpp
+container.h
+/mnt/d/CLion_Projects/AVS_HW2/container.h
+cstdio
+-
+ctime
+-
+cstdlib
+-
+
+/mnt/d/CLion_Projects/AVS_HW2/transport.h
+truck.h
+/mnt/d/CLion_Projects/AVS_HW2/truck.h
+bus.h
+/mnt/d/CLion_Projects/AVS_HW2/bus.h
+car.h
+/mnt/d/CLion_Projects/AVS_HW2/car.h
+
+/mnt/d/CLion_Projects/AVS_HW2/truck.h
+cstdio
+-
+
